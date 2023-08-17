@@ -1,2 +1,3 @@
-# tabs_project
+# Tabs Project
+
 A tabs project
