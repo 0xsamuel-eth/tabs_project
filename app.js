@@ -5,6 +5,9 @@ const articles = document.querySelectorAll(".content");
 about.addEventListener("click", function(e) {
     const id = e.target.dataset.id;
     if(id) {
-        
+        // remove active from other buttons
+        btns.forEach(function(btn) {
+            btn.classList.remove("active");
+        });
     }
 });
